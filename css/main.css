@@ -749,7 +749,7 @@ footer {
 }
 
 .bottom-end {
-  padding: 15px;
+  padding-block: 15px;
   max-width: 1330px;
   margin: 0 auto;
   font-family: "Heebo";
@@ -879,11 +879,5 @@ footer {
 @media (max-width: 600px) {
   .crossfit-types-list {
     grid-template-columns: repeat(1, 1fr);
-  }
-}
-@media (max-width: 500px) {
-  input, button, select {
-    line-height: 1;
-    padding-left: 0px;
   }
 }/*# sourceMappingURL=main.css.map */
