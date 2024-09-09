@@ -12,11 +12,21 @@
     <header class="header">
         <img class="header-logo" src="img/header-logo-kropp.png" alt=""></img>
         <ul>
-            <li class="header-selected">Home</li>
-            <li>Pages</li>
-            <li>Portfolio</li>
-            <li>Block</li>
-            <li>Shop</li>
+            <li>
+                <button class="header-pageType header-selected" type="button">Home</button>
+            </li>
+            <li>
+                <button class="header-pageType" type="button">Pages</button>
+            </li>
+            <li>
+                <button class="header-pageType" type="button">Portfolio</button>
+            </li>
+            <li>
+                <button class="header-pageType" type="button">Block</button>
+            </li>
+            <li>
+                <button class="header-pageType" type="button">Shop</button>
+            </li>
         </ul>
         <div class="header-buttons">
             <a href=".">Book now</a>
@@ -39,7 +49,7 @@
         <section class="title">
             <div class="title-cover">
                 <div class="title-info">New event<br>
-                    coming up / june&nbsp<time datetime="06-07">7</time datetime="06-13">&nbsp-&nbsp<time>13</time>
+                    coming up / june&nbsp<time datetime="06-07">7</time>&nbsp-&nbsp<time datetime="06-13">13</time>
                 </div>
                 <h1>Crossfit</h1>
             </div>
@@ -51,7 +61,7 @@
                     <button type="button""></button>
                 </li>
                 <li>
-                    <button type=" button" class="title-selected"></button>
+                    <button type="button" class="title-selected"></button>
                 </li>
             </ul>
         </section>
@@ -73,12 +83,12 @@
                                 fill-opacity="1.000000" fill-rule="evenodd" />
                             <path id="Vector" d="M13.64 0L13.64 26L12.34 26L12.34 0L13.64 0Z" fill="#FFFFFF"
                                 fill-opacity="1.000000" fill-rule="evenodd" />
-                        </svg>
+                            </svg>
 
 
                         <p>Unum solum justo ex ius. Pro cu probo laboramus eius insolens euripidis te eos, ut agam tota.
                         </p>
-                        <button class="motivation-button">View more</button>
+                        <button class="button">View more</button>
                     </div>
                 </li>
                 <li class="motivation-item">
@@ -103,7 +113,7 @@
 
                         <p>Sed abhorreant constituam consectetuer eu. At mei clita deserunt, his movet molestie nemore.
                         </p>
-                        <button class="motivation-button">View more</button>
+                        <button class="button">View more</button>
                     </div>
                 </li>
             </ul>
@@ -114,36 +124,42 @@
                     <div class="crossfit-types-item-cover">
                         <img src="img/Vector1.svg" alt="">
                         <h4>Maxpump</h4>
+                        <img class="crossfit-types-item-arrow" src="img/Frame.svg" alt="">
                     </div>
                 </li>
                 <li class="crossfit-types-item">
                     <div class="crossfit-types-item-cover">
                         <img src="img/Vector2.svg" alt="">
                         <h4>Aron gym</h4>
+                        <img class="crossfit-types-item-arrow" src="img/Frame.svg" alt="">
                     </div>
                 </li>
                 <li class="crossfit-types-item">
                     <div class="crossfit-types-item-cover">
                         <img src="img/Vector3.svg" alt="">
                         <h4>Fit & tone</h4>
+                        <img class="crossfit-types-item-arrow" src="img/Frame.svg" alt="">
                     </div>
                 </li>
                 <li class="crossfit-types-item">
                     <div class="crossfit-types-item-cover">
                         <img src="img/Vector4.svg" alt="">
                         <h4>Forza</h4>
+                        <img class="crossfit-types-item-arrow" src="img/Frame.svg" alt="">
                     </div>
                 </li>
                 <li class="crossfit-types-item">
                     <div class="crossfit-types-item-cover">
                         <img src="img/Vector5.svg" alt="">
                         <h4>Balance fitness</h4>
+                        <img class="crossfit-types-item-arrow" src="img/Frame.svg" alt="">
                     </div>
                 </li>
                 <li class="crossfit-types-item">
                     <div class="crossfit-types-item-cover">
                         <img src="img/Vector6.svg" alt="">
                         <h4>Body sculpt</h4>
+                        <img class="crossfit-types-item-arrow" src="img/Frame.svg" alt="">
                     </div>
                 </li>
         </section>
@@ -200,9 +216,9 @@
                 <p>Fill the form below to start your journey</p>
                 <form action="">
                     <fieldset>
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <button class="motivation-button" type="submit">Subscribe</button>
+                        <input class="input" type="text" placeholder="Name">
+                        <input class="input" type="email" placeholder="Email">
+                        <button class="button" type="submit">Subscribe</button>
                     </fieldset>
                 </form>
             </div>
@@ -226,7 +242,7 @@
                     </svg>
                 </h3>
                 <p>Nec suas signiferumque id. An eum labore commodo principes. Usu diam noluisse cu, nam adipisci</p>
-                <button type="button" class="motivation-button">Visit more</button>
+                <button type="button" class="inputs-buttons">View more</button>
 
             </div>
         </section>
@@ -265,7 +281,6 @@
                     <div class="bgtext">
                         BMI
                     </div>
-                    <p>Duo graece ponderum ne, ei mel aliquando. Pro te tamquam nonumes, nam no nemore epicurei</p>
                     <svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <desc>
@@ -278,27 +293,29 @@
                             fill-opacity="1.000000" fill-rule="evenodd" />
                     </svg>
 
-                    <form action="">
-                        <input type="number" placeholder="Height / cm">
-                        <input type="number" placeholder="Weight / kg">
-                        <input type="number" placeholder="Age">
-                        <select name="" id="">
-                            <option value="0" disabled selected>Gender</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                        </select>
-                        <select name="" id="" class="calculate-form-long">
-                            <option value="0" disabled selected>Select an activity factor:</option>
-                            <option value="1">Maxpump</option>
-                            <option value="2">Aron gym</option>
-                            <option value="3">Fit & tone</option>
-                            <option value="4">Forza</option>
-                            <option value="5">Balance fitness</option>
-                            <option value="6">Boy sculpt</option>
-                        </select>
-                        <button class="motivation-button">Calculate</button>
-                    </form>
+                
                 </h3>
+                <p>Duo graece ponderum ne, ei mel aliquando. Pro te tamquam nonumes, nam no nemore epicurei</p>
+                <form action="">
+                    <input class="input" type="number" placeholder="Height / cm">
+                    <input class="input" type="number" placeholder="Weight / kg">
+                    <input class="input" type="number" placeholder="Age">
+                    <select class="input select" name="" id="">
+                        <option value="0" selected disabled>Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <select name="" id="" class="calculate-form-long input select">
+                        <option value="0" selected disabled>Select an activity factor:</option>
+                        <option value="1">Maxpump</option>
+                        <option value="2">Aron gym</option>
+                        <option value="3">Fit & tone</option>
+                        <option value="4">Forza</option>
+                        <option value="5">Balance fitness</option>
+                        <option value="6">Boy sculpt</option>
+                    </select>
+                    <button class="button">Calculate</button>
+                </form>
             </div>
             <div class="calculate-table">
                 <table>
@@ -363,8 +380,8 @@
             <div class="footer-column">
                 <h4>Start now <img src="img/arrow-bottom-left.svg" alt=""></h4>
                 <div class="footer-input">
-                    <input type="text" placeholder="Email">
-                    <button type="button"><img src="img/arrow-top-right.svg" alt=""></button>
+                    <input class="input" type="email" placeholder="Email">
+                    <button type="button"></button>
                 </div>
                 <div class="footer-links">
                     <a href="https://www.tiktok.com/"><img src="img/tt.svg" alt=""></a>
